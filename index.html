@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="covid19-estimator">
+    <h1> Realtime Display of Covid19 Cases with time</h1>
+    
+        <label for="data-population">The population</label><br>
+        <input class="input-data-population" type="text" value="data-population"><br><br>
+        <label for="data-time-to-elapse">Elapsed Time</label><br>
+        <input type="text" class="input-date-time-to-elapse" value="data-time-to-elapse"><br><br>
+        <label for="data-reported-cases">Reported Total Cases</label><br>
+        <input type="text" class="input-data-reported-cases" value="data-reported-cases"><br><br>
+        <label for="data-total-hospital-beds">Total Hospital Beds</label><br>
+        <input type="text" class="input-data-total-hospital-beds" value="total-hospital-beds"><br><br>
+        
+        
+        <br><label for="data-population" class="data-period-type" title="Period">
+            <select name="Period" id="Period">
+                <option value="weeks">weeks</option>
+                <option value="days">days</option>
+                <option value="months">months</option>
+                
+            </select>
+            Period
+        </label>
+        
+        <br><br><button><input type="submit" value="Submit"></button>
+
+    </div>
+
+</body>
+
+</html>
